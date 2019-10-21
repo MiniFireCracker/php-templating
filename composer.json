@@ -1,0 +1,7 @@
+{
+    "require": {
+        "phpunit/php-timer": "^2.1",
+        "fzaninotto/faker": "^1.8",
+        "twig/twig": "^2.12"
+    }
+}

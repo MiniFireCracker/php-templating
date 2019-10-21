@@ -1,0 +1,39 @@
+body{
+    display:flex;
+
+}
+aside, .card{
+    display:flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main{
+    width:70%;
+}
+aside{
+    width:30%;
+}
+
+h1,h2{
+    text-align:center;
+}
+
+.card{
+    border:1px solid orange;
+    width: 40%;
+    margin: 0 auto;
+    padding:1em;
+}
+
+img{
+    width:100%;
+
+}
+
+#User_img{
+    border-radius:50%;
+    width:130PX;
+    height:130px;
+    background: green;
+}
