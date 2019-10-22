@@ -1,11 +1,11 @@
-{% extends 'layout.twig %}
+{% extends 'layout.php' %}
 
 
 {% block content %}
 
 <?php 
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 $faker = Faker\Factory::create();
 
 ?>
@@ -34,6 +34,7 @@ $faker = Faker\Factory::create();
         </main>
         <aside>
             <img id=User_img src="<?= $faker->imageUrl($width, $height, 'cats', true, 'Faker')?>">
+
             <h3><?= $faker->userName?></h3>
             <h3><?= $faker->jobTitle?></h3>
             <h3>Contact info</h3>
